@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'com.github.dcendents.android-maven'
     id 'maven-publish'
 }
 group = 'com.github.jinjiBL'
@@ -11,8 +10,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groudId = 'com.github.jinjiBL'
-                artifactId = 'base'
+                groupId = 'com.github.jinjiBL'
+                artifactId = 'library'
                 version = '0.0.1'
             }
         }
@@ -24,12 +23,10 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.wubanglin.base"
         minSdk 27
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
