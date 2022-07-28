@@ -1,4 +1,4 @@
-package com.wubanglin.base
+package com.wubanglin.box
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

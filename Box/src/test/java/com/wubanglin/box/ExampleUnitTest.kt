@@ -1,4 +1,4 @@
-package com.wubanglin.base
+package com.wubanglin.box
 
 import org.junit.Test
 
