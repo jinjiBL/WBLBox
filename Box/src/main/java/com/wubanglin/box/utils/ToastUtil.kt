@@ -1,4 +1,4 @@
-package com.wubanglin.box
+package com.wubanglin.box.utils
 
 import android.content.Context
 import android.widget.Toast
